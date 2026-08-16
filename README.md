@@ -22,3 +22,17 @@ Este repositorio nace para:
 
 ```bash
 npx torlnk
+
+---
+### 3. Etiquetas / Topics sugeridos para GitHub
+Para que tu repositorio sea fácil de encontrar, añade estas etiquetas en la sección "Topics" de tu repo:
+
+`torrent` `torrent-client` `terminal` `tui` `cli` `ink` `webtorrent` `spanish` `espanol` `downloader` `magnet-links` `p2p`
+
+---
+
+**💡 Un consejo para cuando empieces a usar Qwen Coder en este nuevo repo:**
+Como el código original está en inglés (por ejemplo, los mensajes en `src/ui/components/Downloads.tsx` o `src/cli/args.ts`), tu primer *prompt* con Qwen Coder podría ser algo como: 
+> *"Actúa como un desarrollador experto en React/Ink. Vamos a empezar a internacionalizar (i18n) este proyecto. Crea un archivo de diccionario en español y refactoriza `src/ui/keymap.ts` y `src/cli/args.ts` para que usen estas traducciones en lugar de tener los strings en inglés hardcodeados."* 
+
+¿Te ayudo a preparar el primer prompt o comando para empezar a trabajar en el código?
